@@ -23,4 +23,4 @@ git push -u origin main
 <hr/>
 
 ###### Desenvolvedor:
-<span>Arthur Miguel<span/> # aula-git-github
+<span>Arthur Miguel<span/> 
