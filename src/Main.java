@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
 
     public static int somar(int num1, int num2){
@@ -5,8 +7,12 @@ public class Main {
     }
     public static void main(String[] args) {
 
+        Scanner leitor = new Scanner(System.in);
 
-        int result = somar(3, 25);
+        int num1 = leitor.nextInt();
+        int num2 = leitor.nextInt();
+
+        int result = somar(num1, num2);
         System.out.println(result);
     }
 }
