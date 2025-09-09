@@ -1,11 +1,12 @@
-public class Main {
+import java.util.Scanner;
 
-    public static int somar(int num1, int num2){
-        return num1 + num2;
-    }
+public class Main {
     public static void main(String[] args) {
 
-        int result = somar(3, 25);
-        System.out.println(result);
+        Pessoa pessoa1 = new Pessoa();
+        pessoa1.nome = "Arthur";
+        pessoa1.idade = 18;
+        System.out.println(pessoa1.nome);
+        System.out.println(pessoa1.idade);
     }
 }
