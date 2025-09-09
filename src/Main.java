@@ -5,7 +5,8 @@ public class Main {
     }
     public static void main(String[] args) {
 
-        int result = somar(10, 88);
+
+        int result = somar(3, 25);
         System.out.println(result);
     }
 }
