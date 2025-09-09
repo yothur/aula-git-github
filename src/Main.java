@@ -16,6 +16,5 @@ public class Main {
 
         int result = somar(5, 6);
         System.out.println(result);
-        }
     }
 }
